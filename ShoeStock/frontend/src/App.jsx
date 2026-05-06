@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'backendshoestock-production.up.railway.app';
+const API_URL = 'https://backendshoestock-production.up.railway.app/api';
 
 const productoInicial = {
   nombre: '',
