@@ -1,0 +1,29 @@
+
+REPORTE DEL MODELO DE ÁRBOL DE DECISIÓN
+
+1. Datos utilizados
+Total de registros de métricas utilizados: 6
+
+Distribución de estados:
+estado
+normal      2
+lento       2
+saturado    2
+
+2. Variable objetivo
+La variable objetivo del modelo fue el campo 'estado', el cual clasifica el comportamiento del sistema en:
+- normal
+- lento
+- saturado
+
+3. Variables predictoras
+Para entrenar el modelo se utilizaron las siguientes variables:
+- peticiones
+- tiempo_respuesta
+- nodos
+- registros_insertados
+
+4. Interpretación
+El árbol de decisión permite clasificar el comportamiento del sistema de acuerdo con las métricas registradas.
+El tiempo de respuesta es una variable importante porque ayuda a identificar cuándo el sistema trabaja de forma normal, lenta o saturada.
+Este modelo funciona como una herramienta de apoyo para anticipar posibles problemas de rendimiento y tomar decisiones preventivas.

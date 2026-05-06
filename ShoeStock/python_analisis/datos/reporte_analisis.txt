@@ -1,0 +1,20 @@
+
+REPORTE DE ANÁLISIS DEL SISTEMA SHOESTOCK
+
+1. Resumen del inventario
+Total de productos registrados: 10
+Stock total disponible: 92
+Precio promedio de productos: $1024.30
+
+2. Productos con inventario bajo
+Total de productos con stock menor o igual a 5: 2
+
+3. Métricas del sistema
+Total de métricas registradas: 6
+Estado más frecuente del sistema: normal
+
+4. Interpretación
+El análisis permite identificar el comportamiento general del inventario de la zapatería.
+También permite reconocer productos con inventario bajo, los cuales requieren atención para evitar desabasto.
+Las métricas del sistema ayudan a observar si el comportamiento del sistema se encuentra normal, lento o saturado.
+Estos datos servirán como base para el análisis posterior y para el modelo de árbol de decisión.

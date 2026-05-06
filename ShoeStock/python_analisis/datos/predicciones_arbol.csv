@@ -1,0 +1,4 @@
+peticiones,tiempo_respuesta,nodos,registros_insertados,prediccion_estado
+100,220,3,9,normal
+250,600,7,18,lento
+500,980,14,35,saturado
